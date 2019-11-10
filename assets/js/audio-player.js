@@ -1,6 +1,3 @@
-console.log('loading foundation 6');
-$(document).foundation();
-
 // Mythium Archive: https://archive.org/details/mythium/
 
 jQuery(function ($) {
