@@ -1,0 +1,75 @@
+---
+layout: default-foundation
+title: Sign Up Form Page 3
+permalink: /sign-up-form-3/
+---
+
+<div class="columns" style="">
+  <div class="row columns small-12 medium-9 large-6 align-center-middle padding-top-2">
+    <form class="sign-up-form" data-abide novalidate>
+
+      <div data-abide-error class="warning callout" style=";" data-closable>
+        <p><i class="fi-info"></i> Didn't receive a code? <a href="#">Resend Code.</a></p>
+        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div data-abide-error class="alert callout" style="display: none;" data-closable>
+        <p><i class="fi-alert"></i> There are some errors in your form.</p>
+        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="row expanded">
+        <div class="columns">
+          <h4 class="text-center">Verify Number</h4>
+          <p class="text-center">
+            In order to better protect your account and data, please enter your number.
+            We'll send you a text with a verification code that you'll need to enter on
+            the next screen.
+          </p>
+        </div>
+      </div>
+
+      <div class="row expanded">
+
+        <div class="small-12 medium-12 columns">
+          <label>Phone Number
+            <input type="text" placeholder="+1 (301) 404 - 1730" aria-describedby="phoneHint"
+                   aria-errormessage="phoneError1" required pattern="number">
+            <span class="form-error">
+            Yo, you had better fill this out, it's required.
+          </span>
+          </label>
+          <p class="help-text" id="example1Hint1">Here's how you use this input field!</p>
+        </div>
+      </div>
+      <!--        <button type="submit" value="submit" class="button  radius bordered expanded">Send Verify Code</button>-->
+      <button type="submit" value="submit" class="button disabled radius bordered expanded" disabled>Sent</button>
+
+    </form>
+    <div class="row expanded padding-1">
+      <ol class="progress-indicator">
+        <li class="is-complete" data-step="">
+          <a href="#"><span>Sign Up</span></a>
+        </li>
+        <li class="is-current" data-step="">
+          <a href="#"><span>Verify</span></a>
+        </li>
+        <li class="" data-step="">
+          <a href="#"><span>Done!</span></a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="row expanded padding-top-1">
+      <div class="columns">
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
