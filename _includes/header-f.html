@@ -32,8 +32,10 @@
       </li>
       {%- endif -%}
       {%- endfor -%}
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
+      <div class="show-for-large-only">
+        <li><input id="header-searchbar" type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </div>
     </ul>
   </div>
 </div>
