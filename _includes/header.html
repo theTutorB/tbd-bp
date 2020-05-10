@@ -1,4 +1,4 @@
-<div class="top-bar">
+<header class="site-header top-bar">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
@@ -7,16 +7,6 @@
             <li class="menu-text">
                 <a href="/">{{ site.title | escape }}</a>
             </li>
-            <li>
-                <a href="#">One</a>
-                <ul class="menu vertical">
-                    <li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
         </ul>
     </div>
     <div class="top-bar-right">
@@ -25,7 +15,10 @@
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
             <li>
-                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+<!--                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
+                <a class="page-link" href="{{ my_page.url | relative_url }}">
+                    <img src="" alt="">
+                </a>
             </li>
             {%- endif -%}
             {%- endfor -%}
@@ -33,4 +26,5 @@
             <li><button type="button" class="button">Search</button></li>
         </ul>
     </div>
-</div>
+</header>
+    
