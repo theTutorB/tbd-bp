@@ -1,5 +1,5 @@
-# tbd-bp
-TutorD Scholars ThinkIt.BuildIt.DeployIt. - Intro to Web Development
+
+# TutorD Scholars ThinkIt.BuildIt.DeployIt. - Intro to Web Development
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
@@ -87,8 +87,8 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
+* [](Jekyll)
+* [](Ruby)
 * []()
 
 
