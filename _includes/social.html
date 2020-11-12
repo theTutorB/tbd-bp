@@ -7,4 +7,13 @@
     </a>
   </li>
   {%- endif -%}
+    
+     {%- if site.twitter_username -%}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+      <i class="fab fa-twitter"></i>
+      <span class="username">{{ site.twitter_username| escape }}</span>
+    </a>
+  </li>
+  {%- endif -%}
 </ul>
