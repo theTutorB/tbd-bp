@@ -21,13 +21,13 @@
 title: Patrick Site
 email: pbabb@csu.fullerton.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  TutorD Scholars bridges the gap between professionals wanting to make an impact
-  in their communities and students looking to gain grow and gain 21st century skills
-  through focused apprenticeship and mentorship programs.
+  On a mission, not a major. 
+  
+  
 
 baseurl: "/tbd-bp" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: tutordscholars
+instagram_username: babbsquared
 twitter_username: patspaceques
 github_username: pbabb2
 
