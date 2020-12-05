@@ -1,3 +1,9 @@
 .site-header {
     background-color: yellow;
 }
+
+.main-page-class {
+    background-color: #2a7ae2;
+    height: 100%;
+    width: 100%;
+}
