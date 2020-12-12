@@ -5,5 +5,11 @@
 .main-page-class {
     background-color: #2a7ae2;
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
+}
+
+div.section-div {
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
 }

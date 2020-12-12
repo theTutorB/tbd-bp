@@ -1,12 +1,34 @@
 console.log('loading foundation 6');
 $(document).foundation();
+console.log('done loading foundation 6!!!!');
 
 // Mythium Archive: https://archive.org/details/mythium/
 
 jQuery(function ($) {
     'use strict'
+    
+    $("#special-button-1").on('click', function() {
+        alert( "Handler for .click() called." );
+        $(".main-page-class").css('background-color', 'red');
+        $("#iframe-1").remove();
+    });
+    
+    $("#special-button-2").on('click', function() {
+        alert( "Handler for .click() called." );
+        $(".main-page-class").css('background-color', 'red');
+        $("#iframe-2").remove();
+    });
+    
+    $("#special-button-3").on('click', function() {
+        alert( "Handler for .click() called." );
+        $(".main-page-class").css('background-color', 'red');
+        $("#iframe-3").remove();
+    });
+    
+    
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
+        
         // initialize plyr
         var player = new Plyr('#audio1', {
             controls: [
